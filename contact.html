@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İletişim | Bilgi Dünyası</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Bilgi Dünyası</h1>
+      <nav class="site-nav">
+        <a href="index.html">Anasayfa</a>
+        <a href="blog.html">Konular</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="contact.html">İletişim</a>
+        <button id="theme-toggle">🌙 Tema</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 2rem 0;">
+    <h2>İletişim</h2>
+    <form id="contact-form" style="max-width: 600px; margin: auto;">
+      <label for="name">İsim:</label><br />
+      <input type="text" id="name" name="name" required placeholder="Adınız" /><br /><br />
+
+      <label for="email">E-posta:</label><br />
+      <input type="email" id="email" name="email" required placeholder="email@ornek.com" /><br /><br />
+
+      <label for="message">Mesaj:</label><br />
+      <textarea id="message" name="message" rows="6" required placeholder="Mesajınızı yazınız..."></textarea><br /><br />
+
+      <button type="submit">Gönder</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Bilgi Dünyası. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Form gönderme simülasyonu
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Mesajınız alındı, teşekkürler!');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
