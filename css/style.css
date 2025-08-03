@@ -129,3 +129,9 @@ body {
   color: white;
   margin-top: 3rem;
 }
+
+h1 i, h2 i, .info-card i {
+  color: #4a90e2;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
