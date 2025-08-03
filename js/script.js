@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.setAttribute('data-theme', 'light');
     toggleBtn.textContent = '🌙 Tema';
   }
+  const themeToggleBtn = document.getElementById('theme-toggle');
+
+function toggleTheme() {
+  if (document.body.classList.toggle('dark-theme')) {
+    themeToggleBtn.textContent = '☀️ Tema';
+  } else {
+    themeToggleBtn.textContent = '🌙 Tema';
+  }
+}
+
+themeToggleBtn.addEventListener('click', toggleTheme);
 
   // Butona tıklanınca tema değiştir
   toggleBtn.addEventListener('click', () => {
