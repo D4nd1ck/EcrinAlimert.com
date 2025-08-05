@@ -1,4 +1,17 @@
 /* style.css */
+footer {
+  background-color: #007BFF; /* Mavi renk (isteğe göre değiştirebilirsin) */
+  color: white;              /* Yazı rengi */
+  text-align: center;        /* Ortala yazıyı */
+  padding: 10px 0;           /* Üst-alt boşluk */
+  position: fixed;           /* Sayfaya sabitle */
+  bottom: 0;                 /* Alt tarafta konumlandır */
+  left: 0;
+  width: 100%;               /* Tüm genişlik */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Hafif gölge (opsiyonel) */
+  font-size: 14px;
+  z-index: 1000;             /* Üstte görünmesini sağlar */
+}
 
 /* --------- GENEL AYARLAR --------- */
 :root {
