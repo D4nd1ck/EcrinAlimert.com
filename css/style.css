@@ -193,8 +193,11 @@ body::before {
   margin: 0;
 }
 .home-logo {
+  width: 50px;      /* İstersen boyutu ayarla */
+  height: auto;
   position: relative;
-  top: -5px; /* 5 piksel yukarı kaydırır */
+  top: -7px;        /* 5px yukarı kaydırma */
 }
+
 
 
