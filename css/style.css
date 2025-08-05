@@ -192,4 +192,9 @@ body::before {
 .text-content p {
   margin: 0;
 }
+.home-logo {
+  position: relative;
+  top: -5px; /* 5 piksel yukarı kaydırır */
+}
+
 
