@@ -1,7 +1,6 @@
 # MyWebHouse.com
 
-![MyWebHouse Logo](https://your-logo-url.com/logo.png)  
-*(Logo URL'si varsa buraya ekleyebilirsin)*
+![MyWebHouse Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSniNRwyInJwKpizdyGfLO_R2ok1lyYW8cMEg&s)
 
 ---
 
