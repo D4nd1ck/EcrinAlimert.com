@@ -155,3 +155,41 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah overlay */
   z-index: -1;
 }
+.info-container {
+  display: flex;
+  align-items: center;    /* Dikey ortalama */
+  gap: 15px;              /* Logo ile metin arasında boşluk */
+  margin-top: -40px;      /* Yukarı kaydırma (değer ihtiyaca göre ayarlanabilir) */
+}
+
+.home-logo {
+  width: 50px;            /* Logo boyutu */
+  height: auto;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Başlıklar ve paragrafın yan yana gelmesi için: */
+.text-content h2,
+.text-content h3,
+.text-content p {
+  margin: 0 10px 0 0;
+  display: inline;        /* Satır içi gösterim */
+}
+
+/* Eğer yazıları tamamen tek satıra almak istiyorsan: */
+
+.text-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-content p {
+  margin: 0;
+}
+
