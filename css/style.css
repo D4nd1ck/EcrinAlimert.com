@@ -135,3 +135,10 @@ h1 i, h2 i, .info-card i {
   margin-right: 0.5rem;
   vertical-align: middle;
 }
+body {
+  background-image: url('SEÇTİĞİN_FOTOĞRAFIN_LINKİ');
+  background-size: cover;         /* Fotoğraf tüm arka planı kaplar */
+  background-position: center;    /* Ortalanır */
+  background-repeat: no-repeat;   /* Tekrar etmez */
+  background-attachment: fixed;   /* Sayfa kaydırıldığında arka plan sabit kalır */
+}
