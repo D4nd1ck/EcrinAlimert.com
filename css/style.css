@@ -1,3 +1,19 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+}
+
 /* style.css */
 footer {
   background-color: #007BFF; /* Mavi renk (isteğe göre değiştirebilirsin) */
