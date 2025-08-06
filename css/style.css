@@ -212,5 +212,17 @@ body::before {
   top: -7px;        /* 5px yukarı kaydırma */
 }
 
+.site-nav a,
+#theme-toggle {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.site-nav a:active,
+#theme-toggle:active {
+  transform: scale(0.95);           /* Küçülme efekti */
+  box-shadow: inset 0 0 5px #0003;  /* İç gölge efekti */
+}
+
+
 
 
