@@ -75,3 +75,15 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+<audio id="bg-music" autoplay loop hidden>
+  <source src="assets/music/Color_Out_-_Host.mp3" type="audio/mp3">
+  Tarayıcınız ses etiketini desteklemiyor.
+</audio>
+
+<script>
+  window.addEventListener('click', function () {
+    const music = document.getElementById('bg-music');
+    if (music.paused) music.play();
+  });
+</script>
+
