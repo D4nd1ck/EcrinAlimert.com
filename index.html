@@ -12,14 +12,12 @@
 </head>
 <body>
 
-  <!-- 🔊 Arka Plan Müziği -->
+  <!-- Arka Plan Müziği -->
   <audio id="bg-music" src="assets/music/background.mp3" autoplay loop hidden></audio>
   <script>
     window.addEventListener('click', function () {
       const music = document.getElementById('bg-music');
-      if (music.paused) {
-        music.play();
-      }
+      if (music.paused) music.play();
     });
   </script>
 
@@ -66,20 +64,6 @@
     </div>
   </footer>
 
-  <div class="info-container">
-    <div class="text-content">
-    </div>
-  </div>
-
   <script src="js/script.js"></script>
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <title>Test Müzik</title>
-</head>
-<body>
- 
