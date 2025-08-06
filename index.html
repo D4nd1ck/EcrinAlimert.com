@@ -65,15 +65,4 @@
 <body onclick="playMusic()">
   <!-- Sayfa içeriğiniz -->
 
- <button onclick="toggleMusic()">Müziği Aç/Kapat</button>
-
-<script>
-  const bgMusic = document.getElementById("bg-music");
-  function toggleMusic() {
-    if (bgMusic.paused) {
-      bgMusic.play();
-    } else {
-      bgMusic.pause();
-    }
-  }
-</script>
+ <audio id="bg-music" src="assets/music/background.mp3" autoplay loop hidden></audio>
