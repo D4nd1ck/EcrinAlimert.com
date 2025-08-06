@@ -14,10 +14,7 @@
 
   <!-- 🔊 Arka Plan Müziği -->
   <audio id="bg-music" src="assets/music/background.mp3" autoplay loop hidden></audio>
-
-  <!-- 🎧 Müzik Başlatıcı JS -->
   <script>
-    // Kullanıcı tıkladığında müzik başlasın (tarayıcı kısıtlaması için)
     window.addEventListener('click', function () {
       const music = document.getElementById('bg-music');
       if (music.paused) {
@@ -68,6 +65,11 @@
       <p>&copy; 2025 Bilgi Ve Oyun Dünyası. Tüm hakları saklıdır.</p>
     </div>
   </footer>
+
+  <div class="info-container">
+    <div class="text-content">
+    </div>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
