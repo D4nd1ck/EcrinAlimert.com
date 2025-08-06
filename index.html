@@ -63,6 +63,14 @@
       <p>&copy; 2025 Bilgi Ve Oyun Dünyası. Tüm hakları saklıdır.</p>
     </div>
   </footer>
+<audio id="bg-music" src="assets/music/Color_Out_-_Host.mp3" autoplay loop hidden></audio>
+
+<script>
+  window.addEventListener('click', function () {
+    const music = document.getElementById('bg-music');
+    if (music.paused) music.play();
+  });
+</script>
 
   <script src="js/script.js"></script>
 </body>
