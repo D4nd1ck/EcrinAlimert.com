@@ -33,3 +33,9 @@ themeToggleBtn.addEventListener('click', toggleTheme);
     toggleBtn.textContent = newTheme === 'dark' ? '☀️ Tema' : '🌙 Tema';
   });
 });
+const toggleBtn = document.getElementById("theme-toggle");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Tema" : "🌙 Tema";
+});
