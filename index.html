@@ -75,4 +75,20 @@
 </body>
 </html>
 
-<audio id="bg-music" src="assets/music/background.mp3" autoplay loop hidden></audio>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Müzik</title>
+</head>
+<body>
+  <audio id="bg-music" src="assets/music/background.mp3" autoplay loop controls></audio>
+
+  <script>
+    window.addEventListener('click', () => {
+      const music = document.getElementById('bg-music');
+      if (music.paused) music.play();
+    });
+  </script>
+</body>
+</html>
