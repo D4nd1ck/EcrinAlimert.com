@@ -1,4 +1,4 @@
-const startDate = new Date("2022-06-15T00:00:00"); // Burayı kendi tarihinize göre ayarlayın
+const startDate = new Date("2025-07-15T00:00:00"); // Burayı kendi tarihinize göre ayarlayın
 
 function updateCounter() {
     const now = new Date();
@@ -25,7 +25,7 @@ function updateCounter() {
                           now.getMonth() === startDate.getMonth();
 
     document.getElementById("anniversaryMessage").innerText = isAnniversary
-        ? `🎉 Bugün yıl dönümümüz! Seni çok seviyorum! ❤️`
+        ? `🎉 Bugün yıl dönümümüz! Seni çok seviyorum BEBEĞİMM  ❤️`
         : "";
 }
 
